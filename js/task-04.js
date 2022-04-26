@@ -9,9 +9,6 @@ counterButtonEl.firstElementChild.addEventListener('click', () => {
 counterValueEl.textContent = counterValue -= 1;
 });
 
- counterButtonEl.lastElementChild.addEventListener('click', () => {
-    counterValueEl.textContent = counterValue += 1;
+counterButtonEl.lastElementChild.addEventListener('click', () => {
+counterValueEl.textContent = counterValue += 1;
 });
-
- 
-    

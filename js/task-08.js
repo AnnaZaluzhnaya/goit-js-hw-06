@@ -2,10 +2,9 @@ const loginForm = document.querySelector('.login-form');
 
 loginForm.addEventListener('submit', onloginForm);
 
-function onloginForm(event) {
-    
+function onloginForm(event) { 
     event.preventDefault();
-    
+
     if (event.currentTarget.elements.email.value === "" ||
         event.currentTarget.elements.password.value === "")
     {return alert ('Аll fields must be filled')
